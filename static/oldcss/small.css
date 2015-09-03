@@ -1,0 +1,116 @@
+html {
+	min-width: 320px;
+	width: auto;
+	overflow: none;
+}
+
+body {
+	width: 100%;
+	margin-bottom:2em;
+}
+
+.page {
+	width: 100%;
+}
+
+main {
+	max-width: 100%;
+	width:auto;
+	margin-left:0px;
+}
+
+.entries ul {
+	margin: 0px;
+	padding: auto;
+}
+
+.entries li {
+	margin: 0px;
+	width: 100%;
+}
+
+main {
+	width: 100%;
+}
+
+nav {
+	height:auto;
+}
+
+nav li {
+	float:none;
+}
+
+nav ul {
+	margin-top: 0px;
+}
+
+nav ul li {
+	width: 100%;
+	max-width:630px;
+}
+
+nav ul li a {
+	border: solid 2px #DC0000;
+	border-top: 0;
+	width: 100%;
+	max-width:630px;
+	box-sizing: border-box;	
+}
+
+nav ul li:first-child a {
+	border-top: solid 2px #DC0000;
+	width: 100%;
+	max-width:630px;
+	box-sizing: border-box;	
+}
+
+nav ul li:last-child a {
+	width: 100%;
+	max-width:630px;
+	box-sizing: border-box;	
+}
+
+aside 
+{
+	display: none;
+}
+
+footer .pied {
+	width: 100%;
+	margin: auto;
+}
+
+h1 {
+	margin-bottom:1em;
+}
+
+header .entete h1 {
+	display: none;
+	font-size: 0.9em;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+header img {
+	display: block;
+	max-width: 64px;
+	height: auto;
+	float: none;
+	padding: 4px;
+	margin: 0px;
+}
+
+header .entete {
+	width: 100%;
+}
+
+section aside {
+	display: none;
+}
+
+section article {
+	width: 100%;
+	border-left: 0px;
+	padding-left: 0px;
+}
