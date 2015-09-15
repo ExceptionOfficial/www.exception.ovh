@@ -35,12 +35,13 @@ body {
 	padding: 0px;
 	background: white;
 	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
-	border-radius: 8px 8px 0px 0px;
+	border-radius: 10px;
 }
 
 .caption {
 	overflow: hidden;
-	background-color: #BE8811;
+	background-color: white;
+	color : black;
 }
 
 .tuile {
