@@ -80,9 +80,9 @@
         <div class="container">
         <footer>
         	<div class="row text-center">
-        		<a href="http://www.facebook.com/Exception-491795657629597"><img src="<?php echo url_for("static/images/logoFacebook.png"); ?>" alt="Facebook" /></a>
-        		<a href="http://github.com/ExceptionOfficial"><img src="<?php echo url_for('static/images/logoGitHub.png'); ?>" alt="GitHub" /></a>
-        		<a href=<?php echo url_for("contact"); ?> ><img src="<?php echo url_for('static/images/logoMail.png');?>" alt="Mail" /></a>
+        		<a href="http://www.facebook.com/Exception-491795657629597"><img src="<?php echo url_for("static/images/logoFacebook.png"); ?>" alt="Facebook" class="img-contact"/></a>
+        		<a href="http://github.com/ExceptionOfficial"><img src="<?php echo url_for('static/images/logoGitHub.png'); ?>" alt="GitHub" class="img-contact" /></a>
+        		<a href=<?php echo url_for("contact"); ?> ><img src="<?php echo url_for('static/images/logoMail.png');?>" alt="Mail" class="img-contact" /></a>
         		<p><br/></p>
         	</div>
             <div class="row text-center">
