@@ -1,4 +1,4 @@
-<form class="form-horizontal tuile col-sm-6 col-sm-offset-3" action="<?php echo url_for("inscription/post/"); ?>main.php" method="post">
+<form class="form-horizontal tuile col-sm-6 col-sm-offset-3" action="<?php echo url_for("inscription/post/"); ?>" method="post">
 <fieldset>
 
 <!-- Form Name -->

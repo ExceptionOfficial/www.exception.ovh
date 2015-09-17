@@ -19,9 +19,10 @@
 			$_SESSION['id'] = $res['id'];
 			$_SESSION['pseudo'] = $res['pseudo'];
 			$_SESSION['type'] = $res['type'];
+			$_SESSION['nbConnection'] = $res['nbConnection']+1;
 			$request = $bdd->prepare('UPDATE users SET nbConnection = :arg1 WHERE id = :arg2');
 			$request->execute(array(
-				'arg1' => $_SESSION['nbConnection'] + 1,
+				'arg1' => $_SESSION['nbConnection'],
 				'arg2' => $_SESSION['id']
 			));
 			header('Location: '.url_for(""));
