@@ -1,5 +1,8 @@
-<h1>Fil d'actualité</h1>
+<h1>Actualité</h1>
 	<?php if (isset($_SESSION['id']) AND $_SESSION['pseudo'] == "begarco") { ?>
+		<div id="news" class="container tuile">
+			<div class="tuile-head"><h1 class="custom-panel-title">Ajout de news</h1></div>
+    		<main class="tuile-main">
     		<form action="<?php echo url_for('articles/'); ?>main.php" method=post class=add-entry>
       		  <dl>
         	    <dt>Titre :
@@ -12,7 +15,9 @@
         	    <dd><textarea name=contenu rows=5 cols=40></textarea>
         	    <dd><input type=submit value="Publier">
       		  </dl>
-		</form>
+			</form>
+			</main>
+		</div>
 	<?php
 		}
 	?>

@@ -1,4 +1,4 @@
-<h1 class="page-title">Page des projets</h1>
+<h1>Page des projets</h1>
 
 <?php if (isset($_SESSION['id']) AND $_SESSION['pseudo'] == "begarco") { ?>
 <div class="tuile">
@@ -21,7 +21,6 @@
 		<dd><input type=submit value=Valider>
 		</dl>
 		</form>
-	</ul>
 	</main>
 </div>
 
