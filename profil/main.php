@@ -8,3 +8,4 @@
 	} else {
 		echo "<section class='alert alert-warning'>Inscrivez-vous d'abord.</section>";
 	}
+?>
