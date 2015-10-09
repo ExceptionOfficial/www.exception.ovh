@@ -6,7 +6,7 @@
 		<h1>Ajout d'un projet</h1>
 	</div>
 	<main class="tuile-main">
-		<form action="{{ url_for('add_project') }}" method=post class=add-entry>
+		<form action="<?php echo url_for('add_project'); ?>" method=post class=add-entry>
 		<dl>
 		<dt>Nom du projet :
 		<dd><input type=text size=30 name=name>
